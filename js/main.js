@@ -1,10 +1,10 @@
 const DataProyect = [
-    {
-        NameProyect: 'Portafolio',
-        ImageProyect: 'https://user-images.githubusercontent.com/83931760/160697277-1a9b63f0-8773-42c1-ae3a-ede4883f28b7.png',
-        ViewProyect: 'https://jairtorres1003.github.io/Generador-QR/',
-        CodeProyect: 'https://github.com/JairTorres1003/Portafolio-JATC'
-    },
+    // {
+    //     NameProyect: 'Portafolio',
+    //     ImageProyect: 'https://user-images.githubusercontent.com/83931760/160697277-1a9b63f0-8773-42c1-ae3a-ede4883f28b7.png',
+    //     ViewProyect: 'https://jairtorres1003.github.io/Portafolio-JATC/',
+    //     CodeProyect: 'https://github.com/JairTorres1003/Portafolio-JATC'
+    // },
     {
         NameProyect: 'Generador QR',
         ImageProyect: 'https://user-images.githubusercontent.com/83931760/160695374-4bd92173-6a1c-43b7-bf34-31f31f940628.png',
@@ -22,6 +22,12 @@ const DataProyect = [
         ImageProyect: 'https://user-images.githubusercontent.com/83931760/160693663-e6c7b416-02b6-423a-871b-595ca6ec5d50.png',
         ViewProyect: 'https://jairtorres1003.github.io/FullStack/Hoja%20de%20vida/',
         CodeProyect: 'https://github.com/JairTorres1003/FullStack/tree/main/Hoja%20de%20vida'
+    },
+    {
+        NameProyect: 'Maxylu',
+        ImageProyect: 'https://user-images.githubusercontent.com/83931760/160698278-dc9b9f27-32cb-4df2-9b31-42d5c29baf1f.png',
+        ViewProyect: 'http://maxylu.epizy.com/',
+        CodeProyect: 'No disponible'
     },
     {
         NameProyect: 'Question Challenge',
