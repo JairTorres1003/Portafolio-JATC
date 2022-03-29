@@ -1,10 +1,10 @@
 const DataProyect = [
-    // {
-    //     NameProyect: 'Portafolio',
-    //     ImageProyect: 'https://user-images.githubusercontent.com/83931760/160697277-1a9b63f0-8773-42c1-ae3a-ede4883f28b7.png',
-    //     ViewProyect: 'https://jairtorres1003.github.io/Portafolio-JATC/',
-    //     CodeProyect: 'https://github.com/JairTorres1003/Portafolio-JATC'
-    // },
+    {
+        NameProyect: 'Portafolio',
+        ImageProyect: 'https://user-images.githubusercontent.com/83931760/160698953-cc5b451a-5920-4c11-acdb-78dcaa85e224.png',
+        ViewProyect: 'https://jairtorres1003.github.io/Portafolio-JATC/',
+        CodeProyect: 'https://github.com/JairTorres1003/Portafolio-JATC'
+    },
     {
         NameProyect: 'Generador QR',
         ImageProyect: 'https://user-images.githubusercontent.com/83931760/160695374-4bd92173-6a1c-43b7-bf34-31f31f940628.png',
@@ -27,7 +27,7 @@ const DataProyect = [
         NameProyect: 'Maxylu',
         ImageProyect: 'https://user-images.githubusercontent.com/83931760/160698278-dc9b9f27-32cb-4df2-9b31-42d5c29baf1f.png',
         ViewProyect: 'http://maxylu.epizy.com/',
-        CodeProyect: 'No disponible'
+        CodeProyect: 'Codigo no disponible'
     },
     {
         NameProyect: 'Question Challenge',
@@ -71,11 +71,13 @@ window.addEventListener('load', function(e){
         btn_container.setAttribute('class', 'btn-container');
     
         btn_a1.setAttribute('class', 'btn-a');
+        btn_a1.classList.add('btn-a1');
         btn_a1.setAttribute('target', '_blank')
         btn_a1.href = DataProyect[x].ViewProyect;
         btn_a1.textContent = "Pagina";
     
         btn_a2.setAttribute('class', 'btn-a');
+        btn_a2.classList.add('btn-a2');
         btn_a2.setAttribute('target', '_blank')
         btn_a2.href = DataProyect[x].CodeProyect;
         btn_a2.textContent = "Código";
@@ -106,3 +108,12 @@ window.addEventListener('load', function(e){
 //     </div>                                                   //
 // </div>                                                       //
 // ------------------------------------------------------------ //
+
+window.addEventListener('click', function(e){
+    let btn_a2 = document.getElementsByClassName('btn-a2');
+    console.log(e.target.getAttribute('href'));
+    if (e.target.getAttribute('href') === 'Codigo no disponible') {
+        e.preventDefault();
+        alert('¡Codigo no disponible!');
+    }
+});
