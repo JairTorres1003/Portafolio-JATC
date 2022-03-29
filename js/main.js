@@ -71,13 +71,11 @@ window.addEventListener('load', function(e){
         btn_container.setAttribute('class', 'btn-container');
     
         btn_a1.setAttribute('class', 'btn-a');
-        btn_a1.classList.add('btn-a1');
         btn_a1.setAttribute('target', '_blank')
         btn_a1.href = DataProyect[x].ViewProyect;
         btn_a1.textContent = "Pagina";
     
         btn_a2.setAttribute('class', 'btn-a');
-        btn_a2.classList.add('btn-a2');
         btn_a2.setAttribute('target', '_blank')
         btn_a2.href = DataProyect[x].CodeProyect;
         btn_a2.textContent = "Código";
@@ -110,10 +108,13 @@ window.addEventListener('load', function(e){
 // ------------------------------------------------------------ //
 
 window.addEventListener('click', function(e){
-    let btn_a2 = document.getElementsByClassName('btn-a2');
     console.log(e.target.getAttribute('href'));
     if (e.target.getAttribute('href') === 'Codigo no disponible') {
         e.preventDefault();
         alert('¡Codigo no disponible!');
+    }
+    if (e.target.href === 'https://jairtorres1003.github.io/Portafolio-JATC/') {
+        e.preventDefault();
+        this.location.href = this.location.href;
     }
 });
