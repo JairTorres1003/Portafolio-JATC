@@ -3,7 +3,7 @@
     --Dominant_BackgroundColor--: rgb(25, 45, 56);
     --linear-gradient--: linear-gradient(45deg, var(--Dominant_BackgroundColor--) 0, rgb(33, 31, 47) 100%);
     --radial-gradient--: radial-gradient(ellipse at center, var(--Dominant_BackgroundColor--) 0, rgb(33, 31, 47) 100%);
-    --Dominant-fontFamily--: 'Cascadia Code';
+    --Dominant-fontFamily--: 'Cascadia Code', sans-serif;
     --color-Title--: rgb(255, 255, 255);
     --BorderColor--: rgb(8, 255, 189);
     --color-Second--: rgb(8, 255, 189);
