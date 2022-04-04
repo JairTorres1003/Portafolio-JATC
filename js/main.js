@@ -110,7 +110,7 @@ window.addEventListener('load', function(e){
 window.addEventListener('click', function(e){
     if (e.target.getAttribute('href') === 'Codigo no disponible') {
         e.preventDefault();
-        alert('¡Codigo no disponible!');
+        alert('¡Código no disponible!');
     }
     if (e.target.href === 'https://jairtorres1003.github.io/Portafolio-JATC/') {
         e.preventDefault();
