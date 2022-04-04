@@ -78,7 +78,7 @@ window.addEventListener('load', function(e){
         btn_a2.setAttribute('class', 'btn-a');
         btn_a2.setAttribute('target', '_blank')
         btn_a2.href = DataProyect[x].CodeProyect;
-        btn_a2.textContent = "Codigo";
+        btn_a2.textContent = "Código";
 
         proyect_c.append(title_proyect);
         proyect_c.append(image_c);
