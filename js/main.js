@@ -95,7 +95,7 @@ window.addEventListener('load', function(e){
 // ------------------------------------------------------------ //
 // ------ Estructura del nodo creado al carga la pagina. ------ //
 // ------------------------------------------------------------ //
-// <div class="proyect-c">                                      //
+// <article class="proyect-c">                                  //
 //     <h3 class="title-proyect">Proyecto</h3>                  //
 //     <div class="image-c">                                    //
 //         <img src="" alt="">                                  //
@@ -104,11 +104,10 @@ window.addEventListener('load', function(e){
 //         <a href="" class="btn-a" target="_blank">Ver</a>     //
 //         <a href="" class="btn-a" target="_blank">Código</a>  //
 //     </div>                                                   //
-// </div>                                                       //
+// </article>                                                   //
 // ------------------------------------------------------------ //
 
 window.addEventListener('click', function(e){
-    console.log(e.target.getAttribute('href'));
     if (e.target.getAttribute('href') === 'Codigo no disponible') {
         e.preventDefault();
         alert('¡Codigo no disponible!');

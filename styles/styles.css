@@ -1,9 +1,8 @@
-@import url('http://fonts.cdnfonts.com/css/cascadia-code');
 :root {
     --Dominant_BackgroundColor--: rgb(25, 45, 56);
     --linear-gradient--: linear-gradient(45deg, var(--Dominant_BackgroundColor--) 0, rgb(33, 31, 47) 100%);
     --radial-gradient--: radial-gradient(ellipse at center, var(--Dominant_BackgroundColor--) 0, rgb(33, 31, 47) 100%);
-    --Dominant-fontFamily--: 'Cascadia Code', sans-serif;
+    --Dominant-fontFamily--: Arial, Helvetica, sans-serif;
     --color-Title--: rgb(255, 255, 255);
     --BorderColor--: rgb(8, 255, 189);
     --color-Second--: rgb(8, 255, 189);
