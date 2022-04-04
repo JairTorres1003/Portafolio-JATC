@@ -1,8 +1,9 @@
+@import url('http://fonts.cdnfonts.com/css/cascadia-code');
 :root {
     --Dominant_BackgroundColor--: rgb(25, 45, 56);
     --linear-gradient--: linear-gradient(45deg, var(--Dominant_BackgroundColor--) 0, rgb(33, 31, 47) 100%);
     --radial-gradient--: radial-gradient(ellipse at center, var(--Dominant_BackgroundColor--) 0, rgb(33, 31, 47) 100%);
-    --Dominant-fontFamily--: Arial, Helvetica, sans-serif;
+    --Dominant-fontFamily--: 'Cascadia Code';
     --color-Title--: rgb(255, 255, 255);
     --BorderColor--: rgb(8, 255, 189);
     --color-Second--: rgb(8, 255, 189);
@@ -13,7 +14,7 @@
     box-sizing: border-box;
 }
 /*TODO: HEADER ------------------------------------------------------------------------------------------------------------------------------*/
-header {
+header.header_container {
     position: relative;
     width: 100%;
     min-height: 9vh;
@@ -22,13 +23,8 @@ header {
     box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     z-index: 9999;
-}
-.header_container {
     background-color: var(--Dominant_BackgroundColor--);
-    height: 100%;
-    width: 100%;
     display: flex;
-    overflow: hidden;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -46,7 +42,7 @@ header {
     height: 100%;
 }
 .header_container .Title_header {
-    font-size: 3em;
+    font-size: 6vh;
     font-family: var(--Dominant-fontFamily--);
     font-weight: bold;
     color: var(--color-Title--);
@@ -55,14 +51,10 @@ header {
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.6);
 }
 /*TODO: MAIN --------------------------------------------------------------------------------------------------------------------------------*/
-main {
+main.main_container{
     width: 100%;
     min-height: 87vh;
     height: auto;
-}
-.main_container {
-    width: 100%;
-    height: 100%;
     padding: 20px;
     background: var(--Dominant_BackgroundColor--);
     background: var(--radial-gradient--);

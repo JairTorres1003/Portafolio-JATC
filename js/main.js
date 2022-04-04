@@ -1,7 +1,7 @@
 const DataProyect = [
     {
         NameProyect: 'Portafolio',
-        ImageProyect: 'https://user-images.githubusercontent.com/83931760/160698953-cc5b451a-5920-4c11-acdb-78dcaa85e224.png',
+        ImageProyect: 'https://user-images.githubusercontent.com/83931760/161457711-5b44b439-ef8a-42aa-bd40-05e033e3d788.png',
         ViewProyect: 'https://jairtorres1003.github.io/Portafolio-JATC/',
         CodeProyect: 'https://github.com/JairTorres1003/Portafolio-JATC'
     },
@@ -51,7 +51,7 @@ const DataProyect = [
 const section = document.getElementById('section');
 window.addEventListener('load', function(e){
     for (let x = 0; x < DataProyect.length; x++) {
-        let proyect_c = this.document.createElement('div');
+        let proyect_c = this.document.createElement('article');
         let title_proyect = this.document.createElement('h3');
         let image_c = this.document.createElement('div');
         let img = this.document.createElement('img');
@@ -78,7 +78,7 @@ window.addEventListener('load', function(e){
         btn_a2.setAttribute('class', 'btn-a');
         btn_a2.setAttribute('target', '_blank')
         btn_a2.href = DataProyect[x].CodeProyect;
-        btn_a2.textContent = "Código";
+        btn_a2.textContent = "Codigo";
 
         proyect_c.append(title_proyect);
         proyect_c.append(image_c);
