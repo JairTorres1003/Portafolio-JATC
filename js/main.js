@@ -32,7 +32,7 @@ const DataProyect = [
     {
         NameProyect: 'Maxylu',
         ImageProyect: 'https://user-images.githubusercontent.com/83931760/160698278-dc9b9f27-32cb-4df2-9b31-42d5c29baf1f.png',
-        ViewProyect: 'http://maxylu.epizy.com/',
+        ViewProyect: 'http://maxylu.epizy.com/LoadFull/',
         CodeProyect: 'Codigo no disponible'
     },
     {
