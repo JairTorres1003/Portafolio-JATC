@@ -1,5 +1,11 @@
 const DataProyect = [
     {
+        NameProyect: 'Generador de Api (MAXYLU)',
+        ImageProyect: 'https://user-images.githubusercontent.com/83931760/162127627-2a02aa82-7aa2-47b3-ac58-3a2229159ad6.png',
+        ViewProyect: 'https://jairtorres1003.github.io/MAXYLU-API/',
+        CodeProyect: 'https://github.com/JairTorres1003/MAXYLU-API'
+    },
+    {
         NameProyect: 'Portafolio',
         ImageProyect: 'https://user-images.githubusercontent.com/83931760/161457711-5b44b439-ef8a-42aa-bd40-05e033e3d788.png',
         ViewProyect: 'https://jairtorres1003.github.io/Portafolio-JATC/',
